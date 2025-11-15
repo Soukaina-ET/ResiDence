@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* Style général pour la page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1A237E, #ADCEFF); /* Dégradé bleu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+    display: flex;
+    width: 80%;
+    height: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.subtitle{
+    font-family: Figma Hand;
+    font-size: 24px;
+    display : block;
+    margin: 15px;
+
+}
+
+/* Rectangle bleu clair */
+.left-rectangle {
+    flex: 1;
+    background-color: #99C7F5; /* Bleu clair */
+    padding: 40px;
+    color: #0B2A5B; /* Bleu foncé */
+}
+
+/* Rectangle bleu foncé */
+.right-rectangle {
+    flex: 1;
+    background-color: #0B2A5B; /* Bleu foncé */
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style des champs et boutons */
+.input-field {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+.btn {
+    background-color: #4A6DA7; /* Bouton bleu */
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.google-btn {
+    background-color: #FFFFFF;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.footer-text a {
+    color: #4A6DA7;
+    text-decoration: none;
+}
+.google-btn img {
+    height: 20px; /* Taille de l'image */
+    margin-right: 10px; /* Espacement entre l'image et le texte */
+    vertical-align: middle; /* Aligner avec le texte */
+}
+
+.illustration1 {
+    display: block;
+    margin: 0 auto; /* Centre l'image horizontalement */
+    height: 200px; /* Utilisez "px" pour les valeurs de hauteur et largeur */
+    width: 200px;
+}
+.illustration {
+    max-width: 95%;
+    height: auto;
+}

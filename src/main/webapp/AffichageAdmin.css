@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* Typographie globale */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style global */
+.body {
+    background: linear-gradient(to bottom, #A5B9F1, #16226D);
+    height: 100%;
+}
+
+/* Structure principale */
+.page1 {
+    background: linear-gradient(to bottom, #A5B9F1, #16226D);
+    padding: 80px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 1024px;
+    position: relative;
+}
+
+/* Boîte d'erreur */
+.error-box {
+    margin-right: 70%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 700px;
+    animation: apparaitre 0.5s ease-in-out;
+
+}
+
+/* Animation */
+@keyframes apparaitre {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Image d'erreur */
+.error-image {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Message d'erreur */
+.error-message {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Bouton de retour */
+.back-button {
+    background-color: #5A87FC;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #3F6BD8;
+}
+
+.back-button:focus {
+    outline: 2px solid #3F6BD8;
+    outline-offset: 2px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .error-box {
+        width: 90%;
+        padding: 20px;
+    }
+    .page1 {
+        padding: 50px 10px 0 10px;
+    }
+}
