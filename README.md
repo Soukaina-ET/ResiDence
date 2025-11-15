@@ -130,23 +130,11 @@ Les captures d’écran se trouvent dans `src/main/resources/screenshots/`.
 ### 🏠 Accueil
 ![Accueil](src/main/resources/screenshots/Acceuil.png)
 
-### 🧑‍💼 Admins
-![Admins](src/main/resources/screenshots/Admins.png)
-
-### ➕ Ajout Résident
-![AjoutResident](src/main/resources/screenshots/AjoutResident.png)
-
-### 🛏️ Chambre
-![Chambre](src/main/resources/screenshots/Chambre.png)
-
-### 🔐 Changement mot de passe
-![Change Password](src/main/resources/screenshots/Changepassword.png)
-
-### ✔️ Confirmation d’inscription
-![Confirmation Inscription](src/main/resources/screenshots/confirmationInsc.png)
-
 ### 🔑 Connexion
 ![Connexion](src/main/resources/screenshots/Connexion.png)
+
+### 🧾 Inscription
+![Inscription](src/main/resources/screenshots/inscription.png)
 
 ### 📊 Dashboard Admin
 ![Dashboard Admin](src/main/resources/screenshots/Dashboard.png)
@@ -154,20 +142,26 @@ Les captures d’écran se trouvent dans `src/main/resources/screenshots/`.
 ### 📊 Dashboard Résident
 ![Dashboard Résident](src/main/resources/screenshots/DashR.png)
 
-### 📝 Demande d’Inscription
-![Demande d'inscription](src/main/resources/screenshots/DemandeInscription.png)
+### 🛏️ Chambre
+![Chambre](src/main/resources/screenshots/Chambre.png)
+
+### 🧑‍💼 Admins
+![Admins](src/main/resources/screenshots/Admins.png)
+
+### ➕ Ajout Résident
+![AjoutResident](src/main/resources/screenshots/AjoutResident.png)
 
 ### 🛠️ Formulaire de Modification
 ![Formulaire Modification](src/main/resources/screenshots/FormulaireModification.png)
-
-### 🧾 Inscription
-![Inscription](src/main/resources/screenshots/inscription.png)
 
 ### 🔧 Maintenance (Admin)
 ![Maintenance Admin](src/main/resources/screenshots/Maintenance.png)
 
 ### 🔧 Maintenance (Résident)
 ![Maintenance Resident](src/main/resources/screenshots/MaintenanceR.png)
+
+### 📝 Demande d’Inscription
+![Demande d'inscription](src/main/resources/screenshots/DemandeInscription.png)
 
 ### 🔔 Notifications
 ![Notifications](src/main/resources/screenshots/notifications.png)
@@ -180,6 +174,9 @@ Les captures d’écran se trouvent dans `src/main/resources/screenshots/`.
 
 ### ⚙️ Paramètres
 ![Paramètres](src/main/resources/screenshots/Parameter.png)
+
+### 🔐 Changement mot de passe
+![Change Password](src/main/resources/screenshots/Changepassword.png)
 
 ### 👨‍🎓 Profil Résident
 ![Profil Résident](src/main/resources/screenshots/ProfilResident.png)
